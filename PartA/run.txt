@@ -1,0 +1,7 @@
+as lc3os.asm
+load lc3os.obj
+as main.asm
+load main.obj
+break set subRead3
+break set TRAP_HALT
+continue

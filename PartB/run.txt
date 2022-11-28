@@ -1,0 +1,8 @@
+as lc3os.asm
+load lc3os.obj
+as main.asm
+load main.obj
+break set main
+break set TRAP_HALT
+break set subIsEqual
+continue
